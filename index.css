@@ -63,5 +63,28 @@ button {
     font-weight: 700;
     cursor: pointer;
     align-self: center;
-
 }
+
+.chatbox-bg {
+    /*
+    Challenge:
+    1. Position the chatbox in the bottom 
+       corner of the window, 6px from bottom
+       and 6px from the right. 
+    */
+        background-color: #dda15e;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        cursor: pointer;
+        box-shadow: 1px 1px 5px #999;
+        display: flex;
+        position: fixed;
+        right: 10px;
+        bottom: 10px;
+    }
+    
+    .chatbox-img {
+        margin: auto;
+        width: 50%; 
+    }
